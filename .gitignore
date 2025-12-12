@@ -1,0 +1,48 @@
+# Test directories
+test/
+tests/
+demo/
+example/
+
+# Backup files created by script
+*.backup
+
+# Package manager files (if testing locally)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-store/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+.cache/
